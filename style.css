@@ -1,0 +1,141 @@
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+body{
+    background-color: #EDEFFE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    border : solid black;
+    background-color: black;
+    font-size: 40px;
+    border-radius: 25px;
+}
+
+nav ul li a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+nav ul li a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+h1{
+    font-size: 3rem;
+    position: relative;
+    z-index: 2;
+    top:25px
+}
+
+h2{
+    font-size: 2rem
+}
+
+p{
+    font-weight: bold;
+    z-index: 1;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+article{
+    flex:1;
+}
+
+section{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    margin-right: 140px;
+}
+
+footer > div > p {
+    text-align: right;
+}
+
+footer > div{
+    margin-top: 100px;
+}
+
+footer div{
+    flex: 1;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.centered1{
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-size: 35px;
+}
+
+article > div > img{
+    width: 1700px;
+    height: 400px;
+    border-radius: 25px;
+}
+
+.centered{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-size: 40px;
+}
+
+.article-container {
+    display: flex;
+
+}
+
+.article {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 0 10px;
+    margin-right: 10px;
+}
+
+.article h2 {
+    color: #333;
+}
+
+#article1 {
+    background-color: peachpuff; 
+}
+
+#article2 {
+    background-color: peachpuff; 
+}
+
+#article3 {
+    background-color: peachpuff;
+}
